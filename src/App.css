@@ -1,0 +1,102 @@
+@font-face {
+  font-family: font;
+  src: url("../src/font/static/Montserrat-Medium.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: font;
+}
+
+body {
+  background-color: #0d0714;
+  
+  
+  width: 100%;
+  height: 100%;
+  --color: rgba(114, 114, 114, 0.11);
+ 
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+body h1{
+  color: #fff;
+  margin: 50px auto;
+  text-align: center;
+  background: -webkit-linear-gradient(#e0aaff, #7b2cbf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+main {
+ 
+  width: 100%;
+  max-width: 500px;
+  margin: 159px auto;
+}
+
+main span {
+  color: #fff;
+}
+
+.cards-main {
+  margin: 50px auto;
+}
+
+.cards {
+  margin-top: 20px;
+
+  height: 400px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.done-main {
+  margin: 50px auto;
+}
+
+.done {
+  margin-top: 20px;
+
+  height: 400px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background: #1e1e1e;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #9e78cf;
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: #0d0714;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9e78cf;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 450px) {
+
+  main {
+    width: 90%;
+  }
+}

@@ -1,0 +1,14 @@
+.done-card {
+  background-color: #15101c;
+  width: 100%;
+  height: 75px;
+  padding: 20px;
+  display: flex;
+  color: #9e78cf;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.done-card s {
+  color: #78cfb0;
+}
