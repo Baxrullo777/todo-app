@@ -45,6 +45,11 @@ main span {
   color: #fff;
 }
 
+main p {
+  color: #fff;
+  margin: 100px auto;
+}
+
 .cards-main {
   margin: 50px auto;
 }

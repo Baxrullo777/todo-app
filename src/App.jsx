@@ -73,7 +73,7 @@ function App() {
         <div className="cards-main">
           <span>Tasks</span>
           <div className="cards">
-            {tasks.map((task, index) => (
+            {tasks.length===0 ? <p>Not yet added</p> :tasks.map((task, index) => (
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -92,7 +92,7 @@ function App() {
         <div className="done-main">
           <span>Done</span>
           <div className="done">
-            {done.map((task) => (
+            {done.length===0 ? <p>Not yet added</p> : done.map((task) => (
               <DoneCard
                 key={task.id}
                 text={task.text}
