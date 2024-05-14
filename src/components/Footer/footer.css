@@ -1,0 +1,15 @@
+.footer {
+  margin: 100px auto;
+}
+
+.footer span {
+  color: rebeccapurple;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+}

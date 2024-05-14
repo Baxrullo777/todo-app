@@ -33,6 +33,7 @@ const Input = ({ addTask }) => {
         value={inputValue}
         onChange={handleChange}
         onKeyDown={handleKeyPress}
+ 
       />
       <button className="input-button" onClick={handleAdd}>
         <img src={plusImage} alt="" />

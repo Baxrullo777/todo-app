@@ -4,6 +4,7 @@ import Card from "./components/Card/card";
 import Input from "./components/Input/input";
 import DoneCard from "./components/DoneCard/done";
 import { motion } from "framer-motion";
+import Footer from "./components/Footer/footer";
 
 function App() {
   const [tasks, setTasks] = useState(() => {
@@ -101,6 +102,7 @@ function App() {
             ))}
           </div>
         </div>
+        <Footer/>
       </main>
     </>
   );
